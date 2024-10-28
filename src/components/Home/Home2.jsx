@@ -50,7 +50,7 @@ function Home2() {
           <Col md={4} className="myAvtar">
             <Tilt>
               <img
-                src="./src/assets/musa.jpg"
+                src="/musa.jpg"
                 className="img-fluid"
                 alt="avatar"
               />
