@@ -2,8 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
-
+import { FaLaptopCode, FaSearch, FaShoppingCart, FaProjectDiagram } from "react-icons/fa";
 
 function Projects() {
   return (
@@ -56,8 +55,8 @@ function Projects() {
               isBlog={false}
               title="Portfolio Website (React)"
               description="Built a responsive portfolio website to showcase my skills and projects using React.js. Implemented React components and applied responsive design principles for an engaging user interface."
-              ghLink="https://github.com/your-portfolio-link"  // Replace with your portfolio GitHub link
-              demoLink="https://your-portfolio-demo-link"  // Replace with your demo link
+              ghLink="https://github.com/x7up/portfolio"  // Replace with your portfolio GitHub link
+              demoLink="moosaqaisar.netlify.app"  // Replace with your demo link
             />
           </Col>
         </Row>
